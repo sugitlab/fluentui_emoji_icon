@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fluentui_emoji_icon/fluentui_emoji_icon.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,9 +33,14 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const <Widget>[
-            Text('Icon Here'),
-            Text('Icon Here'),
-            Text('Icon Here'),
+            FluentUiEmojiIcon(
+              fl: Fluents.fl_1st_place_medal,
+            ),
+            FluentUiEmojiIcon(
+              fl: Fluents.fl_2nd_place_medal,
+              w: 50,
+              h: 50,
+            ),
           ],
         ),
       ),

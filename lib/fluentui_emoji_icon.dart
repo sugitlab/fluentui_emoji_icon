@@ -1,7 +1,2 @@
-library fluentui_emoji_icon;
-
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/fluentui_emoji_icon.dart';
+export 'src/fluents.dart';
