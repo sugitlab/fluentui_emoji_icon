@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fluentui_emoji_icon/src/svg_icon_base.dart';
-import 'package:fluentui_emoji_icon/src/fluents.dart';
+import 'package:fluentui_emoji_icon/src/fluent_data.dart';
 
 class FluentUiEmojiIcon extends StatelessWidget {
   const FluentUiEmojiIcon({super.key, required this.fl, this.h, this.w});

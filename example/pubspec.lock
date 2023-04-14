@@ -98,6 +98,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  git:
+    dependency: transitive
+    description:
+      name: git
+      sha256: "840c57646dd22c63b3305a8ef962215f0e9e9a9ba2876e6632083026b8c65f43"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.0"
   js:
     dependency: transitive
     description:
@@ -162,6 +170,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.1.0"
+  recase:
+    dependency: transitive
+    description:
+      name: recase
+      sha256: e4eb4ec2dcdee52dcf99cb4ceabaffc631d7424ee55e56f280bc039737f89213
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.1.0"
+  rw_git:
+    dependency: transitive
+    description:
+      name: rw_git
+      sha256: "5c6321f336b42369fd46a44353d142c430e3a9173cecedb017faecf92168c1fc"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.3"
   sky_engine:
     dependency: transitive
     description: flutter

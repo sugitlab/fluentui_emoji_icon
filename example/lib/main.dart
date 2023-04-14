@@ -34,13 +34,9 @@ class MyHomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: const <Widget>[
             FluentUiEmojiIcon(
-              fl: Fluents.fl_1st_place_medal,
+              fl: Fluents.fl1stPlaceMedal,
             ),
-            FluentUiEmojiIcon(
-              fl: Fluents.fl_2nd_place_medal,
-              w: 50,
-              h: 50,
-            ),
+            FluentUiEmojiIcon(fl: Fluents.flAirplane, w: 50, h: 50),
           ],
         ),
       ),

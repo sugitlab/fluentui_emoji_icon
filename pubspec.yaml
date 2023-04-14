@@ -11,6 +11,8 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_svg: ^2.0.4
+  recase: ^4.1.0
+  rw_git: ^1.0.3
 
 dev_dependencies:
   flutter_test:
