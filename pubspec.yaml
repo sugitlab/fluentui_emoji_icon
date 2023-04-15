@@ -1,6 +1,6 @@
 name: fluentui_emoji_icon
 description: Flutter Icon Widget Package using FluentUI-Emoji published from Microsoft.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/sugitlab/fluentui_emoji_icon
 
 environment:
