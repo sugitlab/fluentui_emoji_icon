@@ -2,7 +2,7 @@
 
 This package is a Flutter widget that allows you to use [FluentUi Emoji](https://github.com/microsoft/fluentui-emoji) developed by Microsoft as SVG image display widgets. Originally, it was designed for emojis, but this package provides widgets that display SVG images, which are the source material for emojis.
 
-![](assets/example_app_screen_shot.png)
+![](https://raw.githubusercontent.com/sugitlab/fluentui_emoji_icon/main/assets/example_app_screen_shot.png)
 
 ## Usage
 
