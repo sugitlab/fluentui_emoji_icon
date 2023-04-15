@@ -32,11 +32,103 @@ class MyHomePage extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const <Widget>[
-            FluentUiEmojiIcon(
-              fl: Fluents.fl1stPlaceMedal,
-            ),
-            FluentUiEmojiIcon(fl: Fluents.flAirplane, w: 50, h: 50),
+          children: <Widget>[
+            Row(mainAxisAlignment: MainAxisAlignment.center, children: const [
+              FluentUiEmojiIcon(
+                w: 100,
+                h: 100,
+                fl: Fluents.flGrinningFace,
+              ),
+              FluentUiEmojiIcon(
+                w: 100,
+                h: 100,
+                fl: Fluents.flGrinningSquintingFace,
+              ),
+              FluentUiEmojiIcon(
+                w: 100,
+                h: 100,
+                fl: Fluents.flSmilingFaceWithHearts,
+              ),
+              FluentUiEmojiIcon(
+                w: 100,
+                h: 100,
+                fl: Fluents.flSmilingFaceWithHearts,
+              ),
+              FluentUiEmojiIcon(
+                w: 100,
+                h: 100,
+                fl: Fluents.flSmilingFaceWithHalo,
+              ),
+              FluentUiEmojiIcon(
+                w: 100,
+                h: 100,
+                fl: Fluents.flSmilingFaceWithSunglasses,
+              ),
+            ]),
+            Row(mainAxisAlignment: MainAxisAlignment.center, children: const [
+              FluentUiEmojiIcon(
+                w: 100,
+                h: 100,
+                fl: Fluents.flWavingHand,
+              ),
+              FluentUiEmojiIcon(
+                w: 100,
+                h: 100,
+                fl: Fluents.flHandWithFingersSplayed,
+              ),
+              FluentUiEmojiIcon(
+                w: 100,
+                h: 100,
+                fl: Fluents.flRaisedHand,
+              ),
+              FluentUiEmojiIcon(
+                w: 100,
+                h: 100,
+                fl: Fluents.flVulcanSalute,
+              ),
+              FluentUiEmojiIcon(
+                w: 100,
+                h: 100,
+                fl: Fluents.flOkHand,
+              ),
+              FluentUiEmojiIcon(
+                w: 100,
+                h: 100,
+                fl: Fluents.flThumbsUp,
+              ),
+            ]),
+            Row(mainAxisAlignment: MainAxisAlignment.center, children: const [
+              FluentUiEmojiIcon(
+                w: 100,
+                h: 100,
+                fl: Fluents.flMonkeyFace,
+              ),
+              FluentUiEmojiIcon(
+                w: 100,
+                h: 100,
+                fl: Fluents.flTigerFace,
+              ),
+              FluentUiEmojiIcon(
+                w: 100,
+                h: 100,
+                fl: Fluents.flHorseFace,
+              ),
+              FluentUiEmojiIcon(
+                w: 100,
+                h: 100,
+                fl: Fluents.flPigFace,
+              ),
+              FluentUiEmojiIcon(
+                w: 100,
+                h: 100,
+                fl: Fluents.flDogFace,
+              ),
+              FluentUiEmojiIcon(
+                w: 100,
+                h: 100,
+                fl: Fluents.flCatFace,
+              ),
+            ]),
           ],
         ),
       ),

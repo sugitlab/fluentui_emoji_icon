@@ -1,11 +1,30 @@
-# fluentui_emoji_icon
+# fluentui_emoji_icon package
 
-Flutter Icon Widget Package using FluentUI Emoji from Microsoft.
+This package is a Flutter widget that allows you to use [FluentUi Emoji](https://github.com/microsoft/fluentui-emoji) developed by Microsoft as SVG image display widgets. Originally, it was designed for emojis, but this package provides widgets that display SVG images, which are the source material for emojis.
+
+![](assets/example_app_screen_shot.png)
 
 ## Usage
 
-1. Generate fluentui emoji icon svg data class by the following command
-   ```sh
-   dart run lib/tool/get_fluentui_emoji_svgs_from_official_repository.dart
+1. import package
+   ```dart
+   import 'package:fluentui_emoji_icon/fluentui_emoji_icon.dart';
    ```
-2. Release package!!
+2. Setup `FluentUiEmojiIcon` Widget
+   ```dart
+   FluentUiEmojiIcon(
+      fl: Fluents.flAirplane,
+      w: 50,
+      h: 50,
+   )
+   ```
+3. All done.
+
+## Supported FluentUiEmojis
+
+Microsoft provides 1545 emojis.
+This package provides 1544 emoji icons.
+
+## FluentUiEmojiIcon Web Search Tool
+
+please wait...

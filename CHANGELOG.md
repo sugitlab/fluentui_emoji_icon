@@ -1,3 +1,3 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+- First Release: FluentUiEmojiIcon Widget with 1544 emoji options.

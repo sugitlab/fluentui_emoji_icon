@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'dart:io';
 import 'package:recase/recase.dart';
 import 'package:rw_git/rw_git.dart';
@@ -87,30 +89,30 @@ void main() async {
     // [NOTE] O button blood type is a special case
     if (directory == "O button blood type") {
       final svgFile = File(
-          "$localDirectoryToCloneInto/fluentui-emoji/assets/$directory/Flat/o_button_(blood_type)_flat.svg");
+          "$localDirectoryToCloneInto/fluentui-emoji/assets/$directory/Color/o_button_(blood_type)_color.svg");
       if (svgFile.existsSync()) {
         svgListJson[convertToSnakeCase(directory)] = svgFile.readAsStringSync();
       } else {
         print(
-          "Failed to get the svg file: $localDirectoryToCloneInto/fluentui-emoji/assets/$directory/Flat/${convertToSnakeCase(directory)}_flat.svg",
+          "Failed to get the svg file: $localDirectoryToCloneInto/fluentui-emoji/assets/$directory/Color/${convertToSnakeCase(directory)}_color.svg",
         );
       }
       continue;
     }
-    // [NOTE] Some icons are stored in the Flat folder
+    // [NOTE] Some icons are stored in the Color folder
     final svgFile = File(
-        "$localDirectoryToCloneInto/fluentui-emoji/assets/$directory/Flat/${convertToSnakeCase(directory)}_flat.svg");
+        "$localDirectoryToCloneInto/fluentui-emoji/assets/$directory/Color/${convertToSnakeCase(directory)}_color.svg");
     if (svgFile.existsSync()) {
       svgListJson[convertToSnakeCase(directory)] = svgFile.readAsStringSync();
     } else {
-      // [NOTE] Some icons are stored in the Default/Flat folder
+      // [NOTE] Some icons are stored in the Default/Color folder
       final svgFile = File(
-          "$localDirectoryToCloneInto/fluentui-emoji/assets/$directory/Default/Flat/${convertToSnakeCase(directory)}_flat_default.svg");
+          "$localDirectoryToCloneInto/fluentui-emoji/assets/$directory/Default/Color/${convertToSnakeCase(directory)}_color_default.svg");
       if (svgFile.existsSync()) {
         svgListJson[convertToSnakeCase(directory)] = svgFile.readAsStringSync();
       } else {
         print(
-          "Failed to get the svg file: $localDirectoryToCloneInto/fluentui-emoji/assets/$directory/Flat/${convertToSnakeCase(directory)}_flat.svg",
+          "Failed to get the svg file: $localDirectoryToCloneInto/fluentui-emoji/assets/$directory/Color/${convertToSnakeCase(directory)}_color.svg",
         );
       }
     }
